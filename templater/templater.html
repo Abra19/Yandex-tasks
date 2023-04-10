@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login-Registration-Profile</title>
+  </head>
+  <body>
+    <div style="color: red; margin: 5px">First example</div>
+    <entry id="first"><div><div x-make="remove:1">Блок 1</div><div x-make="copy:3">Блок 2</div></div></entry>
+    <div style="color: red; margin: 5px">Next example</div>
+    <entry id="second"><div x-make="removeChildren:2"><div x-make="copy:100">Блок 1</div><div>Блок 2</div><div x-make="switch:7">Блок 3</div><div>Блок 4</div><div>Блок 5</div></div></entry>
+    <div style="color: red; margin: 5px">Next example</div>
+    <entry id="third"><section><div x-make="switch:2"><div x-make="remove:5">Блок 1</div><span>Блок 2</span></div><div x-make="copy:1"><div x-make="remove:5">Блок 3</div><div x-make="switch:1">Блок 4</div></div><p>Блок 5</p></section></entry>
+    <div style="color: red; margin: 5px">Next example</div>
+    <entry id="forth"><div x-make="switch:2">1</div><div x-make="switch:3">2</div><div x-make="switch:5">3</div></entry>
+    <script src="templater.js"></script>
+  </body>
+</html>
