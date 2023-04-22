@@ -1,0 +1,74 @@
+{
+  "objectFirst": {
+    "key3": 10,
+    "key4": {
+      "innerKey": "innerKey",
+      "innerObj": {
+        "test": 123,
+        "key": null,
+        "someOtherKey": []
+      }
+    },
+    "array": [
+      null,
+      null,
+      null,
+      {}
+    ]
+  },
+  "object2First": {
+    "options": {
+      "key3": 10,
+      "key4": {
+        "innerKey": "innerKey",
+        "innerObj": {
+          "test": 123,
+          "key": null,
+          "someOtherKey": []
+        }
+      },
+      "array": [
+        null,
+        null,
+        null,
+        {}
+      ]
+    }
+  },
+  "objectSecond": {
+    "key3": 10,
+    "key4": {
+      "innerKey": "innerKey",
+      "innerObj": {
+        "test": 123,
+        "key": null,
+        "someOtherKey": []
+      }
+    },
+    "array": [
+      null,
+      null,
+      null,
+      {}
+    ]
+  },
+  "object2Second": {
+    "options": {
+      "key3": 10,
+      "key4": {
+        "innerKey": "innerKey",
+        "innerObj": {
+          "test": 123,
+          "key": null,
+          "someOtherKey": []
+        }
+      },
+      "array": [
+        null,
+        null,
+        null,
+        {}
+      ]
+    }
+  }
+}
